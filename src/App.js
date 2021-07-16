@@ -6,6 +6,7 @@ import PropsFunctional from './PropsFunctional';
 import PropsClass from './PropsClass';
 import Form from './form';
 import PassFunctionAsProps from './PassFunctionAsProps'
+import HooksUseEffect from './HooksUseEffect'
 
 function App() {
   const [Name,NewName] = useState("Sumit")
@@ -55,6 +56,8 @@ function App() {
       <Form/>
       {/* PassFunctionAsProps */}
       <PassFunctionAsProps data={callParent}/>
+      {/* HooksUseEffect */}
+      <HooksUseEffect/>
     </div>
   );
 } 
